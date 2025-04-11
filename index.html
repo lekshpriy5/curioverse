@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CurioVerse – Where Curiosity Meets the Cosmos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('space-background.png') no-repeat center center fixed;
+background-size: cover;
+      color: #f1f1f1;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #a0c4ff;
+    }
+
+    header p {
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .stars {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .star {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #fff2;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .star:hover {
+      transform: scale(1.2);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .sandbox {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .sandbox button {
+      background: #0077b6;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .sandbox button:hover {
+      background: #00b4d8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #000;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CurioVerse</h1>
+    <p>"The most beautiful thing we can experience is the mysterious." – Einstein</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center;">Choose a Star of Curiosity</h2>
+   <div class="stars">
+      <a href="time.html" class="star">🕰</a>
+<a href="aliens.html" class="star">🛸</a>
+<a href="darkmatter.html" class="star">🌌</a>
+<a href="timetravel.html" class="star">⏳</a>
+    </div>
+
+    <div class="sandbox">
+      <h2>Physics Sandbox (Coming Soon!)</h2>
+      <button onclick="alert('Imagine tweaking gravity, or bending time...')">Play with Reality</button>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 CurioVerse. Built for the curious.
+  </footer>
+
+</body>
+</html>
